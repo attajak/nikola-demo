@@ -5,6 +5,7 @@ charset-normalizer==3.3.2
 cloudpickle==3.0.0
 docutils==0.21.2
 doit==0.36.0
+ghp-import==2.1.0
 idna==3.7
 importlib_metadata==8.2.0
 lxml==5.2.2
