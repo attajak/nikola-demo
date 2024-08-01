@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+                        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+ <sitemap>
+  <loc>https://attajak.github.io/nikola-demo/categories/blog.xml</loc>
+  <lastmod>2024-08-01T10:51:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://attajak.github.io/nikola-demo/categories/cat_nikola.xml</loc>
+  <lastmod>2024-08-01T10:51:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://attajak.github.io/nikola-demo/categories/demo.xml</loc>
+  <lastmod>2024-08-01T10:51:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://attajak.github.io/nikola-demo/categories/nikola.xml</loc>
+  <lastmod>2024-08-01T10:51:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://attajak.github.io/nikola-demo/categories/python.xml</loc>
+  <lastmod>2024-08-01T10:51:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://attajak.github.io/nikola-demo/galleries/demo/rss.xml</loc>
+  <lastmod>2024-08-01T10:51:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://attajak.github.io/nikola-demo/galleries/rss.xml</loc>
+  <lastmod>2024-08-01T10:51:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://attajak.github.io/nikola-demo/rss.xml</loc>
+  <lastmod>2024-08-01T10:51:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://attajak.github.io/nikola-demo/sitemap.xml</loc>
+  <lastmod>2024-08-01T10:51:00Z</lastmod>
+ </sitemap>
+</sitemapindex>

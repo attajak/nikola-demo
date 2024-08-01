@@ -1,0 +1,4 @@
+Sitemap: https://attajak.github.io/nikola-demo/sitemapindex.xml
+
+User-Agent: *
+Host: attajak.github.io
