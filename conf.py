@@ -16,15 +16,15 @@ import time
 
 
 # Data about this site
-BLOG_AUTHOR = "Nikola Tesla"  # (translatable)
+BLOG_AUTHOR = "Attajak Janrak"  # (translatable)
 BLOG_TITLE = "Nikola Demo"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "https://example.com/"
+SITE_URL = "https://attajak.github.io/nikola-demo"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://example.com/"
-BLOG_EMAIL = "n.tesla@example.com"
+BLOG_EMAIL = "janrak@gmail.com"
 BLOG_DESCRIPTION = "This is a demo site for Nikola."  # (translatable)
 
 # Nikola is multilingual!
