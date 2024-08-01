@@ -1,0 +1,31 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x' # Replace with your desired Python version
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build Nikola site
+        run: nikola build
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy@v1
+        with:
+          access_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./output
+          repository_name: ${{ github.repository }}
+          branch: gh-pages
