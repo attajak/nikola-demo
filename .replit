@@ -1,0 +1,12 @@
+modules = ["python-3.12"]
+run = "nikola build && nikola serve -b -a 0.0.0.0"
+
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", "nikola build && nikola serve -b"]
+
+[[ports]]
+localPort = 8000
+externalPort = 80
