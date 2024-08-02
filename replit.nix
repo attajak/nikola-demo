@@ -1,5 +1,13 @@
 {pkgs}: {
   deps = [
+    pkgs.pkg-config
+    pkgs.libffi
+    pkgs.gitFull
+    pkgs.rustc
+    pkgs.libiconv
+    pkgs.cargo
+    pkgs.gdb
+    pkgs.zeromq
     pkgs.glibcLocales
     pkgs.cacert
     pkgs.tk
