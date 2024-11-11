@@ -83,7 +83,7 @@ psutil==6.0.0
 ptyprocess==0.7.0
 pure_eval==0.2.3
 pycparser==2.22
-pygal==3.0.4
+pygal==3.0.5
 Pygments==2.18.0
 pyphen==0.15.0
 PyRSS2Gen==1.1
