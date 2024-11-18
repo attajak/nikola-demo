@@ -95,7 +95,7 @@ referencing==0.35.1
 requests==2.32.3
 rfc3339-validator==0.1.4
 rfc3986-validator==0.1.1
-rpds-py==0.19.1
+rpds-py==0.21.0
 ruamel.yaml==0.18.6
 ruamel.yaml.clib==0.2.8
 Send2Trash==1.8.3
