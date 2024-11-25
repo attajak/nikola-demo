@@ -85,7 +85,7 @@ pure_eval==0.2.3
 pycparser==2.22
 pygal==3.0.5
 Pygments==2.18.0
-pyphen==0.15.0
+pyphen==0.17.0
 PyRSS2Gen==1.1
 python-dateutil==2.9.0.post0
 python-json-logger==2.0.7
