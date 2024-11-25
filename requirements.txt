@@ -1,4 +1,7 @@
-nikola
+Nikola
 aiohttp
 watchdog
 ghp-import
+pygal
+pyphen
+typogrify
