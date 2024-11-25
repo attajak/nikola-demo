@@ -1,1 +1,4 @@
-nikola[extras]
+nikola
+aiohttp
+watchdog
+ghp-import
