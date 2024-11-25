@@ -5,21 +5,21 @@
 
 version: 2
  updates: 
-   - package-ecosystem: "github-actions" 
+   - package-ecosystem: "pip" 
      directory: "/" 
      schedule: 
        interval: "weekly" 
-     open-pull-requests-limit: 1000 
+     open-pull-requests-limit: 10
      assignees: 
        - "attajak 
      labels: 
        - "dependencies"
 updates:
-  - package-ecosystem: "pip" # See documentation for possible values
+  - package-ecosystem: "github-actions" # See documentation for possible values
     directory: "/" # Location of package manifests
     schedule:
       interval: "weekly"
-    open-pull-requests-limit: 1000
+    open-pull-requests-limit: 10
     assignees:
       - "attajak
     labels:
