@@ -1,11 +1,17 @@
-on: [push]
+name: 'Deploy Nikola to GitHub Pages'
+on:
+  # Run on all pushes to main (including merge of PR)
+  push:
+    branches: main
+  # Run on all changes in pull requests
+  pull_request:
 
 jobs:
   nikola_build:
     runs-on: ubuntu-latest
     name: 'Deploy Nikola to GitHub Pages'
     steps:
-    - name: Check out
+    - name: 'Check out'
       uses: actions/checkout@v4
-    - name: Build and Deploy Nikola
+    - name: 'Build and Deploy Nikola'
       uses: getnikola/nikola-action@v8
