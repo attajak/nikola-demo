@@ -4,16 +4,16 @@
 # https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
 
 version: 2
- updates: 
-   - package-ecosystem: "pip" 
-     directory: "/" 
-     schedule: 
-       interval: "weekly" 
-     open-pull-requests-limit: 10
-     assignees: 
-       - "attajak 
-     labels: 
-       - "dependencies"
+updates:
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 10
+    assignees:
+      - "attajak
+    labels:
+      - "dependencies"
 updates:
   - package-ecosystem: "github-actions" # See documentation for possible values
     directory: "/" # Location of package manifests
