@@ -8,7 +8,7 @@ on:
 
 jobs:
   nikola_build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     name: 'Deploy Nikola to GitHub Pages'
     steps:
     - name: 'Check out'

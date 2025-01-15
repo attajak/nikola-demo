@@ -1,7 +1,6 @@
 __pycache__
-.pythonlibs
 cache
 output
-.doit.db.*
-*.db
+.doit.db
 venv
+.venv
