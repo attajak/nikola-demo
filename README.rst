@@ -3,9 +3,10 @@ Nikola (demo)
 
 This folder contains the source used to generate a static site using Nikola.
 
-nikola-demo::
 
-    .
+.. code-block:: bash
+
+    nikola-demo
     ├── README.txt
     ├── conf.py
     ├── files
