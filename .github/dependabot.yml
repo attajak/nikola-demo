@@ -9,18 +9,18 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
-    open-pull-requests-limit: 10
+    open-pull-requests-limit: 1000
     assignees:
-      - "attajak
+      - "attajak"
     labels:
       - "dependencies"
 updates:
   - package-ecosystem: "github-actions" # See documentation for possible values
     directory: "/" # Location of package manifests
     schedule:
-      interval: "weekly"
-    open-pull-requests-limit: 10
+      interval: "monthly"
+    open-pull-requests-limit: 1000
     assignees:
-      - "attajak
+      - "attajak"
     labels:
       - "dependencies"

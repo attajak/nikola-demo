@@ -3,6 +3,17 @@ on:
   # Run on all pushes to main (including merge of PR)
   push:
     branches: main
+    paths:
+      - '.github/**'
+      - 'conf.py'
+      - 'files/**'
+      - 'galleries/**'
+      - 'images/**'
+      - 'listings/**'
+      - 'pages/**'
+      - 'posts/**'
+      - 'templates/**'
+      - 'requirements.txt'
   # Run on all changes in pull requests
   pull_request:
 
